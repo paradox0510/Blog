@@ -1,0 +1,16 @@
+<%- include("partials/header"); -%>
+
+<%  blogarrays.forEach(function(blogarray){ %>
+
+<h1 class="post-heading"><%=blogarray.blogTitle%></h1>
+<p>
+  <%=blogarray.blogContent.substring(0, 100) + " ..."%>
+  <a class="btn btn-success" role="button" href="/posts/<%=blogarray.blogId%>">Read More</a>
+  <a href="/update/<%=blogarray.blogId%>" class="btn btn-success" role="button">Update</a>
+  <a href="/delete/<%=blogarray.blogId%>" class="btn btn-success" role="button">Delete</a>
+</p>
+<hr class="rule">
+
+<% }) %>
+
+<%- include("partials/footer"); -%>

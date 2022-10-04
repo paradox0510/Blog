@@ -1,0 +1,113 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+  background-image: linear-gradient(RGB(51,255,255),RGB(0,102,204));
+}
+
+.card{
+  border: solid 5px black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 20px 20px 20px;
+  border-radius: 2rem;
+  background-color: RGB(205,255,229);
+}
+
+.navbar-brand{
+  padding-bottom: 10px;
+  font-weight: bold;
+  padding-left: 3rem;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.compose-heading{
+  padding-bottom: 10px;
+  color:  #297F87;
+}
+
+.update-heading{
+  padding-bottom: 10px;
+  color:  #297F87;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #74C7B8;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.post-heading{
+  padding-bottom: 10px;
+  color: #297F87;
+}
+
+.rule{
+  border: 0.5px solid;
+  display: block;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.srchbar{
+  display: flex;
+  padding-top: 1rem;
+}
+
+.srchbtn{
+  margin-left: 5px;
+}
+
+.btns{
+  padding-right: 5px;
+}
+
+.label-heading{
+  padding-top: 10px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.post-content{
+  text-align: justify;
+}
+
+#home{
+  font-weight: bold;
+  color: RGB(32,32,32);
+}
+
+#compose{
+  font-weight: bold;
+  color: RGB(32,32,32);
+}

@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+<h1 class="update-heading">Update</h1>
+<form class="" action="/update/<%=idd%>" method="post">
+  <div class="form-group">
+    <label>Title</label>
+    <textarea class="form-control" name="updateTitle" rows="1" cols="30"><%=atitle%></textarea>
+    <label class="label-heading">Post</label>
+    <textarea class="form-control" name="updateBody" rows="10" cols="30"><%=acontent%></textarea>
+  </div>
+  <button class="btn btn-success" type="submit" name="button">Update</button>
+  <a href="/" class="btn btn-success" role="button">Cancel</a>
+</form>
+
+<%- include("partials/footer"); -%>
